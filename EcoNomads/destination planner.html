@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoNomads - Destination Planner</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script> <!-- ✅ Ensure script is linked -->
+</head>
+<body>
+  <header>
+    <div style="display: flex; align-items: center;">
+      <h1>EcoNomads</h1>
+      <img src="images/logoeco.png" alt="logo" style="width: 100px; height: auto; margin-left: 10px;">
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="carbon tracker.html">Tracker</a></li>
+        <li><a href="destination planner.html">Destination Planner</a></li>
+        <li><a href="community.html">Community</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="destination-planner">
+    <h2>Choose Your Destination &#128670;</h2>
+    <p>Find sustainable accommodations and restaurants throughout Europe and enjoy a fun and eco-friendly trip ❤️🌍.</p>
+
+    <img src="https://www.researchgate.net/publication/335399207/figure/fig1/AS:796128073228289@1566823132245/European-Union-EU-capital-cities-that-were-selected-for-the-analyses-Google-Maps.png" 
+         alt="European Capital Cities Map" class="map">
+
+    <div class="destination-box">
+      <label for="destination">Enter Your Destination:</label>
+      <input type="text" id="destination" name="destination" placeholder="Type your destination...">
+      <button onclick="searchDestination()">Search</button> <!-- ✅ Button added -->
+    </div>
+
+    <p id="result"></p> <!-- ✅ This will show the output -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EcoNomads. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+  
+</body>
+</html>

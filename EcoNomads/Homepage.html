@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>EcoNomads - Sustainable Travel</title>
+</head>
+<body>
+  <header>
+    <div style="display: flex; align-items: center;">
+      <h1>EcoNomads </h1>
+      <img src="images/logoeco.png" alt="logo" style="width: 100px; height: auto; margin-left: 10px;">
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="carbon tracker.html">Tracker</a></li>
+        <li><a href="destination planner.html">Destination planner</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="products.html">Products</a></li> <!-- New nav link -->
+      </ul>
+    </nav>
+  </header>
+
+  <section class="homepage">
+    <h2>Welcome to EcoNomads</h2>
+    <p>Your guide to sustainable travel. Track your carbon footprint, plan eco-friendly trips, and connect with a community of responsible travelers.</p>
+
+    <div class="homepage-features">
+      <div class="feature">
+        <h3>🌍 Carbon Tracker</h3>
+        <p>Monitor your travel impact and reduce emissions.</p>
+        <a href="carbon tracker.html" class="button">Start Tracking</a>
+      </div>
+
+      <div class="feature">
+        <h3>📍 Destination Planner</h3>
+        <p>Find sustainable destinations and activities.</p>
+        <a href="destination planner.html" class="button">Explore Destinations</a>
+      </div>
+
+      <div class="feature">
+        <h3>🤝 Community</h3>
+        <p>Join like-minded travelers making a difference.</p>
+        <a href="community.html" class="button">Join Community</a>
+      </div>
+
+      <div class="feature"> <!-- NEW card -->
+        <h3>🧳 Sustainable Products</h3>
+        <p>Explore travel-friendly products we’ve vetted to help you stay eco-conscious on the go.</p>
+        <a href="products.html" class="button">See Products</a>
+      </div>
+    </div> <!-- End of homepage-features -->
+
+    <div class="about-us">
+      <div class="card">
+        <h2>About Us</h2>
+        <p>We are Economads, a team of passionate travelers on a mission to make sustainable travel effortless and accessible. Our journey began with a shared vision: to connect conscious travelers with eco-friendly accommodations, restaurants, and products that align with their values. Through meaningful collaborations with sustainable businesses, we curate responsible travel experiences that minimize environmental impact while maximizing cultural and personal enrichment. From thoughtfully chosen stays and dining spots to eco-conscious product recommendations, we strive to empower travelers to explore the world sustainably, without compromising on comfort or authenticity. Join us in redefining travel, one responsible choice at a time. 🌿✈️</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 EcoNomads. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoNomads - Sustainable Products</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .products-section {
+      padding: 2rem;
+      text-align: center;
+      background-color: #f4f9f4;
+    }
+
+    .products-section h2 {
+      color: #2E8B57;
+      margin-bottom: 1rem;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .product-card {
+      background-color: white;
+      border: 2px solid #ccc;
+      border-radius: 15px;
+      padding: 1rem;
+      width: 280px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .product-card h4 {
+      color: #2E8B57;
+      margin-bottom: 0.5rem;
+    }
+
+    .product-card p {
+      font-size: 0.9rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <h1>EcoNomads</h1>
+      <img src="images/logoeco.png" alt="logo" style="width: 80px; height: auto; margin-left: 10px;">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="carbon tracker.html">Tracker</a></li>
+        <li><a href="destination planner.html">Destination Planner</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="products.html">Products</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="products-section">
+    <h2>🌿 Sustainable Products for Smart Travelers</h2>
+    <p>Carefully vetted eco-friendly products that make your journey lighter on the planet and easier on you.</p>
+
+    <div class="product-list">
+      <div class="product-card">
+        <img src="images/waterbottle.jpg" alt="Reusable Water Bottle">
+        <h4>Reusable Water Bottle</h4>
+        <p>Stay hydrated and reduce plastic waste with this durable, lightweight bottle perfect for any destination.</p>
+      </div>
+
+      <div class="product-card">
+        <img src="images/shampoo.jpg" alt="Solid Shampoo Bar">
+        <h4>Solid Shampoo Bar</h4>
+        <p>Eco-friendly and TSA-approved, these bars save space and reduce plastic packaging.</p>
+      </div>
+
+      <div class="product-card">
+        <img src="images/bamboo.jpeg" alt="Bamboo Utensils">
+        <h4>Bamboo Travel Utensils</h4>
+        <p>A sustainable cutlery set to avoid single-use plastic when you're on the go.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EcoNomads. All rights reserved.</p>
+  </footer>
+</body>
+</html>
